@@ -1,0 +1,30 @@
+/*Variables*/
+$verde: #009d39;
+$amarillo:  #fed200;
+$azul: #012169;
+
+$uno: 'Michroma', sans-serif;
+$dos: 'Jura', sans-serif;
+$tres: 'Play', sans-serif;
+$cuatro: 'Teko', sans-serif;
+
+/*SCSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background: linear-gradient(#009d39, #fed200, #012169);
+}
+
+
+@import "nav.scss"; @import "index.scss"; @import "footer.scss"; @import "beco.scss"
+
+
+

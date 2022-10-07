@@ -1,0 +1,66 @@
+/*Variables*/
+/*SCSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  background: linear-gradient(#009d39, #fed200, #012169); }
+
+nav ul {
+  padding: 10px; }
+  nav ul li {
+    padding-inline: 35px;
+    font-size: 2rem; }
+    nav ul li .nav-link {
+      color: #fed200;
+      font: "Play", sans-serif; }
+    nav ul li:hover {
+      color: #012169;
+      scale: 1.2;
+      transition: 0.4s; }
+
+.index__main h1 {
+  font: "Michroma", sans-serif;
+  color: #012169; }
+
+.index__main h3 {
+  font: "Michroma", sans-serif;
+  color: #fed200; }
+
+.index__main p {
+  font: "Teko", sans-serif;
+  color: #fed200;
+  padding: 1em; }
+
+footer {
+  padding: 1em; }
+  footer h5, footer div {
+    font: "Teko", sans-serif;
+    color: #009d39; }
+  footer .redes {
+    margin: 5px;
+    padding: 10px; }
+
+h2 {
+  font: "Play", sans-serif;
+  color: #012169;
+  text-align: center;
+  font-size: 1.5rem; }
+
+p {
+  font: "Jura", sans-serif;
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 1em; }
+
+h6 {
+  text-align: center;
+  padding: 1.5em;
+  line-height: 2;
+  font-size: 1.3rem; }

@@ -1,0 +1,21 @@
+nav{
+    ul{
+        padding: 10px;
+        li{
+            padding-inline: 35px;
+            font-size: 2rem;
+            .nav-link{
+                color: $amarillo;
+                font: $dos;
+            }
+            &:hover{
+                color: $azul;
+                scale: 1.2;
+                transition: 0.4s;
+            }
+        }
+    }
+}
+
+
+
